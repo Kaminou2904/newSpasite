@@ -65,13 +65,13 @@
 }
 
 .offerCardWrap{
-    width: calc(100% + 100% + 100%);
+    width: calc(100% + 100% + 100%) !important;
     display: flex;
     flex-wrap: nowrap;
 }
 
 .offerCard{
-    width: min(100%, 360px);
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -112,7 +112,11 @@
 
 @media screen and (min-width: 790px) {
     .offerCardWrap{
-        width: calc(360px + 360px + 360px);
+        width: calc(360px + 360px + 360px) !important;
+    }
+
+    .offerCard{
+        width: 360px;
     }
 
     .mainFeatWrap{
