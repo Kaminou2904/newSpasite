@@ -26,9 +26,10 @@
 }
 
 .mainIntroWrap{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb_LG3YmTAXwRoEf_UjM2d5TwQY81GUfoJdw&usqp=CAU');
+    background-image: url('../assets/images/back2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     min-height: 90vh;
 }
 
